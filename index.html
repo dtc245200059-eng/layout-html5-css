@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Bài tập] Tạo layout với các thẻ HTML5 và CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- 1. Header: Phần đầu trang -->
+        <header>
+            <h1>Trang Tin Tức & Công Nghệ HTML5</h1>
+            <p>Khám phá kiến thức lập trình web hiện đại và các thẻ ngữ nghĩa chuẩn SEO</p>
+        </header>
+
+        <!-- 2. Nav: Thanh điều hướng -->
+        <nav>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Khóa học</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+
+        <!-- 3. Khu vực chứa Section và Aside -->
+        <div class="main-wrapper">
+            <!-- 4. Section: Khu vực nội dung chính -->
+            <section class="content-section">
+                <h2>Các bài viết nổi bật</h2>
+
+                <!-- 5. Article: Các bài viết độc lập -->
+                <article>
+                    <h3>HTML5 Semantic Tags là gì và tại sao nên dùng?</h3>
+                    <p class="meta">Đăng ngày 06/10/2026 bởi CodeGym</p>
+                    <p>Các thẻ ngữ nghĩa trong HTML5 như <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code> và <code>&lt;footer&gt;</code> giúp trình duyệt, công cụ tìm kiếm và lập trình viên dễ dàng hiểu được cấu trúc và vai trò của từng phần tử trên trang web.</p>
+                </article>
+
+                <article>
+                    <h3>Lợi ích của việc sử dụng CSS Flexbox trong thiết kế Web</h3>
+                    <p class="meta">Đăng ngày 05/10/2026 bởi Web Dev</p>
+                    <p>Flexbox cung cấp khả năng bố trí các phần tử một cách linh hoạt theo hàng hoặc cột, tự động co giãn và căn chỉnh khoảng cách hoàn hảo trên nhiều kích thước màn hình khác nhau mà không cần dùng float.</p>
+                </article>
+
+                <article>
+                    <h3>Tối ưu hóa SEO với cấu trúc ngữ nghĩa chuẩn</h3>
+                    <p class="meta">Đăng ngày 04/10/2026 bởi SEO Master</p>
+                    <p>Cấu trúc HTML5 rõ ràng giúp các bot tìm kiếm phân tích cây DOM nhanh hơn, từ đó tăng độ thân thiện và thứ hạng bài viết trên các công cụ tìm kiếm phổ biến.</p>
+                </article>
+            </section>
+
+            <!-- 6. Aside: Khu vực sidebar bổ sung -->
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3>Chủ đề xem nhiều</h3>
+                    <ul>
+                        <li><a href="#">Lập trình Frontend cơ bản</a></li>
+                        <li><a href="#">CSS Grid và Flexbox</a></li>
+                        <li><a href="#">JavaScript hiện đại ES6+</a></li>
+                        <li><a href="#">Xây dựng giao diện Responsive</a></li>
+                    </ul>
+                </div>
+
+                <div class="widget">
+                    <h3>Thông tin tác giả</h3>
+                    <p>Chào mừng bạn đến với blog công nghệ. Tại đây chia sẻ các bài viết, thủ thuật và kinh nghiệm thực chiến về lập trình web hiện đại.</p>
+                </div>
+            </aside>
+        </div>
+
+        <!-- 7. Footer: Phần chân trang -->
+        <footer>
+            <p>Bản quyền © 2026 <strong>Trang Tin Tức HTML5</strong>. Bảo lưu mọi quyền.</p>
+            <p>Thiết kế bố cục chuẩn ngữ nghĩa bằng HTML5 và CSS.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
